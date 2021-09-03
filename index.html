@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./blog-area.css" />
+    <link rel="stylesheet" href="./new_navbar.css" />
+    <link rel="stylesheet" href="./common.css" />
+    <title>Small articles</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-landing">
+          <nav class="navbar navbar-expand-lg navbar-light" id="navbar-landing" style="
+          position: fixed;
+          width: 100vw !important;
+          transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        ">
+              <div id="navbar-container" class="container-fluid navbar-container-unscrolled">
+                  <a class="navbar-brand" href="./index.html">
+                      <img src="images/logo.svg" alt="Health Highway Logo" />
+                      <div class="logo-text">
+                          <span style="color: #4ca9ee" class="logo-span">Health</span>
+                          <span style="color: #29e7cd" class="logo-span"> Highway</span>
+                      </div>
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                          <li style="margin-right: 40px" class="nav-item">
+                              <a href="./blogs/blogs.html" onclick="scrolltofunc('unique-main-div')" 
+                  class="nav-link">Blogs</a>
+                          </li>
+                          <li style="margin-right: 40px" class="nav-item">
+                              <a onclick="scrolltofunc('services-main-div')" 
+                  class="nav-link">Support</a>
+                          </li>
+                          <li style="margin-right: 40px" class="nav-item">
+                              <a onclick="scrolltofunc('feedback-main-starting')" style="font-weight: 600 !important"
+                  class="nav-link">Login</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <button id="landing-joinus" type="button" class="btn btn-light" onclick="showmodal('booksession')">
+                      Join Us
+                  </button>
+                  <!-- <button class="loginIcon">
+                      <img src="images/user.png" alt="user"/>
+                  </button> -->
+              </div>
+
+          </nav>
+      </div>
+  </header>
+    <section id="blogs-section">
+      <div class="main-article-container">
+        <div class="big-article">
+          <a href="#">
+            <div class="big-article-img">
+              <img src="./images/main-article.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area big-article-text-area">
+            <div class="text-and-date">
+              <h3>Fitness</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <a href="#"
+                ><h3>
+                  From Sketch to Figma : much more than a design decision
+                </h3></a
+              >
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="medium-article med-art-1">
+          <a href="#">
+            <div class="medium-article-img">
+              <img src="./images/main-article.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="medium-article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 22,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="medium-article med-art-2">
+          <a href="#">
+            <div class="medium-article-img">
+              <img src="./images/main-article.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="medium-article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="article-container">
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/Ellipse 2.png" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/images.jfif" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-article">
+          <a href="#">
+            <div class="article-img">
+              <img src="./images/Rectangle 111.png" alt="" />
+              <div class="read-more">
+                <p>Read more >></p>
+              </div>
+            </div>
+          </a>
+          <div class="article-text-area">
+            <div class="text-and-date">
+              <h3>Nature</h3>
+              <span></span>
+              <h4>July 21,2021</h4>
+            </div>
+            <div class="article-content">
+              <h3>Nature is replenshing itself during Covid Lockdown</h3>
+              <p>
+                By understanding how different psychology principles influence
+                human behavior, we can build solutions that resolve users'
+                problems.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="author-img">
+                <img src="./images/virat.jpg" alt="" />
+              </div>
+              <div class="author-info">
+                <h4>Luis Monteiro</h4>
+                <h5>Design Director</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const body = document.querySelector("body");
+      const smallImg = document.querySelectorAll(".article-img");
+      const mediumImg = document.querySelectorAll(".medium-article-img");
+      const bigImg = document.querySelector(".big-article-img");
+
+      const setHeight = () => {
+        const bigWidth = bigImg.offsetWidth;
+        const bigHeight = bigWidth / 1.707 + `px`;
+        bigImg.style.height = bigHeight;
+
+        mediumImg.forEach((img) => {
+          const medWidth = img.offsetWidth;
+          const medHeight = medWidth / 1.707 + `px`;
+          img.style.height = medHeight;
+        });
+
+        smallImg.forEach((smgImg) => {
+          if (body.offsetWidth <= 783) {
+            const smallWidth = smgImg.offsetWidth;
+            const smallHeight = smallWidth / 1.707 + `px`;
+            smgImg.style.height = smallHeight;
+          } else smgImg.style.height = "285px";
+        });
+      };
+      window.onresize = setHeight;
+      window.onload = setHeight;
+    </script>
+  </body>
+</html>
